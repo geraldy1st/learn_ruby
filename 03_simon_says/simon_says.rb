@@ -32,11 +32,19 @@ def first_word (phrase)
   return morceaux[0]
 end
 
-first_word("salut je suis Alison")
+first_word("salut je suis Geraldy")
 
 # capitalization d'un mot
 def titleize (mot)
   return mot.capitalize
 end
 
-titleize()
+titleize("jaws")
+
+# capitalization des mots
+def nom (mots)
+  name = mots.split(" ")
+  return name
+end
+
+nom("david copperfield")
